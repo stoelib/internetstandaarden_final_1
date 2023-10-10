@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1  {
+    color: brown;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    justify-content: center;
+    display: flex;
+}
+
+h2  {
+    color: brown;
+    margin: 10xp;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+p{
+    width: 45vw;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 0cm;
+}
+
+body {
+    background-color: bisque;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-block: solid;
+    border-color: brown;
+    background-color:antiquewhite;
+    list-style-type: none;
+}
+
+header li img{
+    height: 75px;
+}
+
+header li:hover{
+    filter: brightness(45%);
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    list-style-type: none;
+}
+
+footer li{
+    border-style: solid;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 0,5;
+    padding-bottom: 0,5;
+    background-color: antiquewhite;
+    transition: all 350ms ease;
+    border-color: brown;
+    font-style: black;
+}
+
+footer li:hover{
+    background-color: brown;
+}
+
+.introductie{
+    justify-content:center;
+    display: flex;
+    gap: 2em;
+
+}
+
+.kop1{
+    justify-content: left;
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+    background-color:antiquewhite;
+    border-style: solid;
+    border-color: brown;
+}
+
+.kop2{
+    justify-content: right;
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+}
+
+.afbeelding1{
+    justify-content: right;
+    display: flex;
+    gap: 1em;
+    border: 0,5em;
+    height: 400px;
+}
+
+.afbeelding2{
+    justify-content: left;
+    display: flex;
+    gap: 1em;
+    border: 0,5em;
+    height: 400px;
+    transition: all 350ms ease;
+}
