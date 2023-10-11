@@ -29,6 +29,11 @@ body {
     background-color: bisque;
 }
 
+.index{
+    background-image: url(images/index_page/front_foto2.jpeg);
+    background-size: 100vw;
+}
+
 header ul{
     display: flex;
     justify-content: space-between;
