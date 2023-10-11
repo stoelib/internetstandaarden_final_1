@@ -75,7 +75,6 @@ footer li:hover{
     justify-content:center;
     display: flex;
     gap: 2em;
-
 }
 
 .kop1{
@@ -109,5 +108,4 @@ footer li:hover{
     gap: 1em;
     border: 0,5em;
     height: 400px;
-    transition: all 350ms ease;
 }
